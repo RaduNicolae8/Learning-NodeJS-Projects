@@ -1,0 +1,29 @@
+{
+  "name": "learning-nodejs-projects",
+  "version": "1.0.0",
+  "description": "List of NodeJs apps I've built in order to better understand the language.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaduNicolae8/Learning-NodeJS-Projects.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "MongoDB",
+    "Express",
+    "Handlebars"
+  ],
+  "author": "Petrachioiu Radu Nicolae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaduNicolae8/Learning-NodeJS-Projects/issues"
+  },
+  "homepage": "https://github.com/RaduNicolae8/Learning-NodeJS-Projects#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}
