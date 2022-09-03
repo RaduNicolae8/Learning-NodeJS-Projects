@@ -37,6 +37,13 @@ app.get('/about', function(req, res){
 
     });
 
+//tour page routing
+app.get('/tours/hood-river', function(req, res){
+    res.render('tours/hood-river');
+    });
+app.get('/tours/request-group-rate', function(req, res){
+    res.render('tours/request-group-rate');
+    });
 
 // custom 404 page
 app.use(function(req, res){
